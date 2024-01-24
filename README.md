@@ -1,4 +1,4 @@
-In this project, let's perform **Fetch and Routing** by applying the concepts we have learned till now.
+
 
 
 <br/>
@@ -18,41 +18,8 @@ In this project, let's perform **Fetch and Routing** by applying the concepts we
 
 </details>
 
-### Set Up Instructions
 
-<details>
-<summary>Click to view</summary>
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app  have the following functionalities
-
-- When the app is opened, Home Route should be displayed
-- When the Home Route is opened,
-
-  - Make HTTP GET request to the **blogsApiUrl**
-  - **_loader_** should be displayed while fetching the data
-  - After fetching the data, the list of blogs should be displayed
-
-- When a blog item in Home Route is clicked,
-  - Page should be navigated to the Blog Item Details Route with the URL `/blogs/:id`
-- When the Blog Item Details Route is opened,
-  - Make HTTP GET request to the **blogItemDetailsApiUrl** with the blog id to get the details of the blog
-    - Example: `https://apis.ccbp.in/blogs/2`
-  - **_loader_** should be displayed while fetching the data
-  - After fetching the data, the details of the blog should be displayed
-
-</details>
-
-<details>
 
 <summary>API Requests & Responses</summary>
 <br/>
