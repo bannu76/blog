@@ -1,6 +1,5 @@
 In this project, let's perform **Fetch and Routing** by applying the concepts we have learned till now.
 
-### Refer to the image below:
 
 <br/>
 <div style="text-align: center;">
@@ -34,7 +33,7 @@ In this project, let's perform **Fetch and Routing** by applying the concepts we
 <summary>Functionality to be added</summary>
 <br/>
 
-The app must have the following functionalities
+The app  have the following functionalities
 
 - When the app is opened, Home Route should be displayed
 - When the Home Route is opened,
@@ -126,45 +125,7 @@ Returns a response containing the details of the specific blog
 <br/>
 </details>
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
 
-Use these files to complete the implementation:
-
-- `src/App.js`
-- `src/components/Home/index.js`
-- `src/components/BlogList/index.js`
-- `src/components/BlogList/index.css`
-- `src/components/BlogItem/index.js`
-- `src/components/BlogItem/index.css`
-- `src/components/BlogItemDetails/index.js`
-- `src/components/BlogItemDetails/index.css`
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- `Home` route should consist of `/` in the URL path
-- `About` route should consist of `/about` in the URL path
-- `Contact` route should consist of `/contact` in the URL path
-- `BlogItemDetails` route should consist of `/blogs/:id` in the URL path
-- No need to use the `BrowserRouter` in `App.js` as we have already included in `index.js` file
-- Wrap the `Loader` component with an HTML container element and add the `data-testid` attribute value as `loader` to it as shown below
-
-  ```jsx
-  <div data-testid="loader">
-    <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
-  </div>
-  ```
-
-</details>
 
 ### Resources
 
@@ -187,9 +148,4 @@ Use these files to complete the implementation:
 
 </details>
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+
